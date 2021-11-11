@@ -181,7 +181,7 @@ class halaman3 extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-            'Semester 5, Prodi Sistem Informasi Fakultas Teknologi Informasi'),
+            'Semester 5, Prodi Sistem Informasi Fakultas Teknologii Informasi'),
       ),
     );
   }
