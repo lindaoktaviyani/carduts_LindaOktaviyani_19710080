@@ -50,11 +50,8 @@ class halaman extends StatelessWidget {
                     '+62 876 9087 8723',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman1()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman1');
                   },
                 ),
               ),
@@ -66,11 +63,8 @@ class halaman extends StatelessWidget {
                     'oktaviyanilinda2@gmail.com',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman2()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman2');
                   },
                 ),
               ),
@@ -82,11 +76,8 @@ class halaman extends StatelessWidget {
                     '5A SI',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman3()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman3');
                   },
                 ),
               ),
@@ -98,11 +89,8 @@ class halaman extends StatelessWidget {
                     'Jl. Batu Benawa',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman4()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman4');
                   },
                 ),
               ),
@@ -114,11 +102,8 @@ class halaman extends StatelessWidget {
                     'UNISKA',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman5()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman5');
                   },
                 ),
               ),
@@ -130,11 +115,8 @@ class halaman extends StatelessWidget {
                     '20 Tahun',
                     style: TextStyle(fontSize: 20.0, color: Colors.black),
                   ),
-                  onLongPress: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => halaman6()),
-                    );
+                  onTap: () {
+                    Navigator.popAndPushNamed(context, 'halaman6');
                   },
                 ),
               ),
